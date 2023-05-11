@@ -1,0 +1,29 @@
+{
+  "name": "be-master-app",
+  "version": "1.0.0",
+  "description": "reto para aplicar al cargo como backend developer en Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Juan Morales",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugui93/be-master-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jugui93/be-master-app/issues"
+  },
+  "homepage": "https://github.com/jugui93/be-master-app#readme",
+  "dependencies": {
+    "axios": "^1.3.6",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
