@@ -2,12 +2,11 @@ const constants = require("./constants");
 
 const generateOptions = (_path) => {
   return (options = {
-    hostname: constants.hostname,
-    path: _path,
+    path: 'api.github.com' + _path,
     headers: {
-      "User-Agent": constants.user_agent,
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
     },
-    OAUth: process.env.GITHUB_TOKEN,
   });
 };
 
