@@ -72,7 +72,7 @@ const getArray = function (req, res, next) {
             data=[{array: array}]
         } else {
             const error = new HttpError(
-                '¡Ingresa un número valido',
+                '¡Ingresa un número valido!',
                 500
               );
               return next(error);
